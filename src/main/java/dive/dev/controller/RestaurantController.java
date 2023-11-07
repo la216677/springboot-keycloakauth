@@ -22,7 +22,7 @@ import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 
 @RestController
 @RequestMapping("/restaurant")
-@SecurityRequirement(name = "Keycloak")
+@SecurityRequirement(name = "Keycloak2")
 public class RestaurantController {
 	
 	@Autowired

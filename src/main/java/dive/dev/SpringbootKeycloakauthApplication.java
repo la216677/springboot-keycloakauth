@@ -9,7 +9,7 @@ import io.swagger.v3.oas.annotations.security.SecurityScheme;
 
 @SpringBootApplication
 @SecurityScheme(
-	    name = "Keycloak"
+	    name = "Keycloak2"
 	    , openIdConnectUrl = "http://localhost:8082/realms/dive-dev/.well-known/openid-configuration"
 	    , scheme = "bearer"
 	    , type = SecuritySchemeType.OPENIDCONNECT

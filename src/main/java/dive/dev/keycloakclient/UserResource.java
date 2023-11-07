@@ -21,7 +21,7 @@ import jakarta.ws.rs.core.Response;
 
 @RestController
 @RequestMapping("/keycloak")
-@SecurityRequirement(name = "Keycloak")
+@SecurityRequirement(name = "Keycloak2")
 public class UserResource {
 	
 	@Autowired
